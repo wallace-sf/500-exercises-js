@@ -1,19 +1,19 @@
 # #149 - HashMap: Two Sum
 
-Assuma 1 solução: retorne indices de dois valores que somam target.
+Assume exactly 1 solution: return the indices of two values that sum to target.
 
-**Assinatura:** `function twoSum(nums,target) {}`
+**Signature:** `function twoSum(nums,target) {}`
 
-**Restrições:** n<=2e5
+**Constraints:** n<=2e5
 
-**Exemplo:** `twoSum([2,7,11,15],9)->[0,1]`
+**Example:** `twoSum([2,7,11,15],9)->[0,1]`
 
 **Tags:** hashmap, array
 
-**Dica:** Map complemento->indice.
+**Hint:** Map complement -> index.
 
-**Bônus:** Nao use loops aninhados (tente O(n) ou O(n log n)).
+**Bonus:** Don't use nested loops (aim for O(n) or O(n log n)).
 
-## Abordagem
+## Approach
 
-_(a preencher durante a resolução)_
+_(to be filled in while solving)_

@@ -1,19 +1,19 @@
 # #487 - Bitwise: Count Bits
 
-ans[i]=popcount(i) para i=0..n.
+ans[i]=popcount(i) for i=0..n.
 
-**Assinatura:** `function countBits(n) {}`
+**Signature:** `function countBits(n) {}`
 
-**Restrições:** n<=2e6
+**Constraints:** n<=2e6
 
-**Exemplo:** `countBits(5)->[0,1,1,2,1,2]`
+**Example:** `countBits(5)->[0,1,1,2,1,2]`
 
 **Tags:** bit, dp
 
-**Dica:** ans[i]=ans[i>>1]+(i&1).
+**Hint:** ans[i]=ans[i>>1]+(i&1).
 
-**Bônus:** Escreva 3 testes basicos para validar sua funcao.
+**Bonus:** Write 3 basic tests to validate your function.
 
-## Abordagem
+## Approach
 
-_(a preencher durante a resolução)_
+_(to be filled in while solving)_

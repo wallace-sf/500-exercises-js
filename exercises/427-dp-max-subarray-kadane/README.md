@@ -1,19 +1,19 @@
 # #427 - DP: Max Subarray (Kadane)
 
-Retorne a maior soma de subarray contiguo.
+Return the largest sum of a contiguous subarray.
 
-**Assinatura:** `function maxSubArray(nums) {}`
+**Signature:** `function maxSubArray(nums) {}`
 
-**Restrições:** n<=2e5
+**Constraints:** n<=2e5
 
-**Exemplo:** `maxSubArray([-2,1,-3,4,-1,2,1,-5,4])->6`
+**Example:** `maxSubArray([-2,1,-3,4,-1,2,1,-5,4])->6`
 
 **Tags:** dp
 
-**Dica:** cur=max(x,cur+x).
+**Hint:** cur=max(x,cur+x).
 
-**Bônus:** Escreva 3 testes basicos para validar sua funcao.
+**Bonus:** Write 3 basic tests to validate your function.
 
-## Abordagem
+## Approach
 
-_(a preencher durante a resolução)_
+_(to be filled in while solving)_

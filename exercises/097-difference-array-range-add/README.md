@@ -1,19 +1,19 @@
 # #097 - Difference Array: Range Add
 
-Aplique operacoes [l,r,delta] em array zerado e retorne array final.
+Apply [l,r,delta] operations to a zero-initialized array and return the final array.
 
-**Assinatura:** `function rangeAdd(n,ops) {}`
+**Signature:** `function rangeAdd(n,ops) {}`
 
-**Restrições:** n<=2e5
+**Constraints:** n<=2e5
 
-**Exemplo:** `rangeAdd(5,[[1,3,2],[2,4,3],[0,2,-2]])->[-2,0,3,5,3]`
+**Example:** `rangeAdd(5,[[1,3,2],[2,4,3],[0,2,-2]])->[-2,0,3,5,3]`
 
 **Tags:** difference-array
 
-**Dica:** diff[l]+=d; diff[r+1]-=d; prefixo.
+**Hint:** diff[l] += d; diff[r+1] -= d; then prefix sum.
 
-**Bônus:** Nao use loops aninhados (tente O(n) ou O(n log n)).
+**Bonus:** Don't use nested loops (aim for O(n) or O(n log n)).
 
-## Abordagem
+## Approach
 
-_(a preencher durante a resolução)_
+_(to be filled in while solving)_

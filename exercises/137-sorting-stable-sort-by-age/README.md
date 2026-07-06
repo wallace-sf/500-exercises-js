@@ -1,0 +1,19 @@
+# #137 - Sorting: Stable Sort by Age
+
+Sort {name,age} items by age in a STABLE way.
+
+**Signature:** `function stableSortByAge(items) {}`
+
+**Constraints:** n<=2e5
+
+**Example:** `stableSortByAge([{name:'A',age:2},{name:'B',age:1},{name:'C',age:2}]) -> B,A,C`
+
+**Tags:** sorting, stability
+
+**Hint:** Use the original index as a tiebreaker.
+
+**Bonus:** Don't use nested loops (aim for O(n) or O(n log n)).
+
+## Approach
+
+_(to be filled in while solving)_

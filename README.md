@@ -1,65 +1,65 @@
-# 500 Exercícios de Lógica, DSA e Algoritmos (JS/TS)
+# 500 Logic, DSA and Algorithm Exercises (JS/TS)
 
-Ambiente local e minimalista para praticar os 500 exercícios da lista "500 Exercícios de Lógica, DSA e Algoritmos", em JavaScript/TypeScript, com Vitest.
+A local, minimalist environment to practice the 500 exercises from the "500 Logic, DSA and Algorithm Exercises" list, in JavaScript/TypeScript, with Vitest.
 
-Sem UI, sem banco de dados, sem ranking, sem timer obrigatório. Só um jeito simples de escrever uma solução e saber na hora se passou ou não.
+No UI, no database, no ranking, no mandatory timer. Just a simple way to write a solution and know right away whether it passed or not.
 
-## Como rodar
+## How to run
 
 ```bash
 npm install
-npm test          # roda todos os testes uma vez
-npm run test:watch   # modo watch, ideal enquanto resolve um exercício
+npm test          # runs all tests once
+npm run test:watch   # watch mode, ideal while solving an exercise
 ```
 
-Para rodar só um exercício:
+To run a single exercise:
 
 ```bash
-npx vitest run exercises/031-two-pointers-remover-duplicatas-in-place
+npx vitest run exercises/031-two-pointers-remove-duplicates-in-place
 ```
 
-## Estrutura
+## Structure
 
 ```
 exercises/
-  001-analise-de-complexidade-padrao-b/
+  001-complexity-analysis-pattern-b/
     README.md
-  031-two-pointers-remover-duplicatas-in-place/
+  031-two-pointers-remove-duplicates-in-place/
     README.md
     solution.ts
     solution.test.ts
   ...
 ```
 
-Cada pasta é um exercício, numerado de 001 a 500.
+Each folder is one exercise, numbered from 001 to 500.
 
-- **Exercícios teóricos** (10 no total, só análise de Big-O): têm apenas `README.md`, com uma seção `## Resposta` para preencher por escrito.
-- **Exercícios de código** (490 no total): têm `README.md` (enunciado, restrições, exemplos, tags, dica, bônus), `solution.ts` (assinatura pronta, corpo vazio lançando `not implemented`) e `solution.test.ts` (testes com os exemplos do enunciado +, em ~2/3 dos casos, casos de borda extras verificados contra o gabarito — array vazio, elemento único, duplicatas, etc.).
+- **Theory exercises** (10 in total, Big-O analysis only): have just a `README.md`, with an `## Answer` section to fill in by writing.
+- **Coding exercises** (490 in total): have a `README.md` (problem statement, constraints, examples, tags, hint, bonus), `solution.ts` (signature ready, empty body throwing `not implemented`) and `solution.test.ts` (tests with the examples from the statement plus, in ~2/3 of the cases, extra edge cases verified against the reference solution — empty array, single element, duplicates, etc.).
 
-Resolver um exercício = implementar o corpo da função/classe em `solution.ts` até os testes passarem.
+Solving an exercise = implementing the body of the function/class in `solution.ts` until the tests pass.
 
-## Mapa de seções
+## Section map
 
-| Seção | Exercícios | Qtd |
+| Section | Exercises | Count |
 |---|---|---|
-| Fundamentos (Big-O, recursão básica, math) | 001–030 | 30 |
-| Arrays e Strings (two pointers, sliding window, prefix sum, hashmap, sorting) | 031–165 | 135 |
-| Pilhas, Filas e Listas | 166–210 | 45 |
-| Árvores, Heaps e Tries | 211–240 | 30 |
-| Grafos e Union-Find | 241–300 | 60 |
+| Fundamentals (Big-O, basic recursion, math) | 001–030 | 30 |
+| Arrays and Strings (two pointers, sliding window, prefix sum, hashmap, sorting) | 031–165 | 135 |
+| Stacks, Queues and Lists | 166–210 | 45 |
+| Trees, Heaps and Tries | 211–240 | 30 |
+| Graphs and Union-Find | 241–300 | 60 |
 | Backtracking | 301–340 | 40 |
-| Programação Dinâmica | 341–480 | 140 |
-| Intervalos, Bits e Misc | 481–500 | 20 |
+| Dynamic Programming | 341–480 | 140 |
+| Intervals, Bits and Misc | 481–500 | 20 |
 
-## Ordem de ataque sugerida
+## Suggested attack order
 
-1. Fundamentos
-2. Arrays e Strings
-3. Pilhas, Filas e Listas
-4. Árvores e Tries
-5. Grafos e Union-Find
+1. Fundamentals
+2. Arrays and Strings
+3. Stacks, Queues and Lists
+4. Trees and Tries
+5. Graphs and Union-Find
 6. Backtracking
-7. Programação Dinâmica
-8. Intervalos, Bits e Misc (pode intercalar a qualquer momento — são curtos)
+7. Dynamic Programming
+8. Intervals, Bits and Misc (can be interleaved at any time — they are short)
 
-Sem pressa, sem timer no início. Um exercício de cada vez.
+No rush, no timer at the beginning. One exercise at a time.

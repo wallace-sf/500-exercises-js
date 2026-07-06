@@ -2,18 +2,18 @@ import { describe, it, expect } from 'vitest';
 import { countBits } from './solution';
 
 describe('#499 - Bitwise: Count Bits', () => {
-  it('exemplo 1', () => {
+  it('example 1', () => {
     // countBits(5)->[0,1,1,2,1,2]
     expect(countBits(5)).toEqual([0,1,1,2,1,2]);
   });
 });
 
-// Casos de borda adicionais (valores esperados verificados com o gabarito)
-describe('casos de borda', () => {
-  it('caso de borda: n = 0', () => {
+// Additional edge cases (expected values verified against the reference solution)
+describe('edge cases', () => {
+  it('edge case: n = 0', () => {
     expect(countBits(0)).toEqual([0]);
   });
-  it('caso de borda: n = 1', () => {
+  it('edge case: n = 1', () => {
     expect(countBits(1)).toEqual([0, 1]);
   });
 });

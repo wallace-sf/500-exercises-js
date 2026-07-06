@@ -1,0 +1,19 @@
+# #331 - Backtracking: Permutations
+
+Return all permutations of nums (no repetitions).
+
+**Signature:** `function permute(nums) {}`
+
+**Constraints:** n<=10
+
+**Example:** `permute([1,2,3])->6 permutations`
+
+**Tags:** backtracking
+
+**Hint:** Swap in place.
+
+**Bonus:** Write 3 basic tests to validate your function.
+
+## Approach
+
+_(to be filled in while solving)_
