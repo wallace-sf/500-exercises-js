@@ -15,8 +15,32 @@ npm run test:watch   # watch mode, ideal while solving an exercise
 To run a single exercise:
 
 ```bash
-npx vitest run exercises/031-two-pointers-remove-duplicates-in-place
+npm run test:one -- 31              # by number
+npm run test:one -- two-pointers    # by (partial) name
+npm run test:one -- 31 --watch      # watch mode for that exercise
 ```
+
+If more than one exercise matches the given number/name, be more specific.
+
+To validate the discursive answers (theory exercises, `## Answer` sections) using Claude Code:
+
+```bash
+npm run test:theory                       # validate all answered theory exercises
+npm run test:theory -- 2                  # validate only exercise 002
+npm run test:theory -- --cli claude-personal   # use a different Claude Code binary
+```
+
+Unanswered exercises (still showing the placeholder text) are skipped. This calls the Claude CLI (`claude` by default) for each answered exercise, so it makes real API calls and takes a few seconds per exercise.
+
+Each theory exercise folder has an `answer.json` (e.g. `exercises/001-complexity-analysis-pattern-b/answer.json`) with the expected complexity, used as the reference/ground truth when grading — it is not exposed in the `README.md` itself.
+
+To see a progress summary of the theory exercises:
+
+```bash
+npm run theory:summary
+```
+
+Prints a totals block (answered / remaining) plus a table per exercise: whether it's answered, how many times the answer changed, and when it was last changed. Progress is tracked locally in `scripts/theory-progress.json` (gitignored, not committed) and only updated when this command runs.
 
 ## Structure
 

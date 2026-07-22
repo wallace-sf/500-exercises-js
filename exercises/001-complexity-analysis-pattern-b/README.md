@@ -24,4 +24,8 @@ function analyze(n) {
 
 ## Answer
 
-_(write your analysis here: complexity + a 1-2 sentence justification)_
+O(n^2)
+
+Explanation:
+
+The function runs with nested iterations, making time complexity O(n²). For every single result iteration the indexes are multiplied and added up in s variable.
