@@ -12,8 +12,6 @@ function analyze(n) {
 
 **Constraints:** 1 <= n <= 10^9 (for analysis only)
 
-**Example:** for n=8, the classification remains O(log n).
-
 **Tags:** big-o, analysis
 
 **Hint:** Count iterations and combine them.
