@@ -8,7 +8,7 @@
     "test:watch": "vitest",
     "test:one": "node scripts/test-exercise.mjs",
     "test:theory": "node scripts/validate-theory.mjs",
-    "theory:summary": "node scripts/summarize-theory.mjs"
+    "summary": "node scripts/summarize.mjs"
   },
   "keywords": [],
   "author": "",

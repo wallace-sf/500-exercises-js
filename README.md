@@ -34,13 +34,18 @@ Unanswered exercises (still showing the placeholder text) are skipped. This call
 
 Each theory exercise folder has an `answer.json` (e.g. `exercises/001-complexity-analysis-pattern-b/answer.json`) with the expected complexity, used as the reference/ground truth when grading — it is not exposed in the `README.md` itself.
 
-To see a progress summary of the theory exercises:
+To see a progress summary across all 500 exercises (theory and coding):
 
 ```bash
-npm run theory:summary
+npm run summary
 ```
 
-Prints a totals block (answered / remaining) plus a table per exercise: whether it's answered, how many times the answer changed, and when it was last changed. Progress is tracked locally in `scripts/theory-progress.json` (gitignored, not committed) and only updated when this command runs.
+Prints a totals block (answered / correct / remaining) plus a table per exercise with two columns:
+
+- **Respondido**: a valid-format attempt exists — the theory `## Answer` section is filled in, or the coding `solution.ts` body was edited away from the `not implemented` stub. Does not imply correctness.
+- **Correto**: the attempt is actually correct — for theory exercises, the stated complexity matches `answer.json` (deterministic check only, no LLM call); for coding exercises, `Respondido` is true *and* `solution.test.ts` passes (this combination avoids false positives from a handful of auto-generated tests that only check that the function exists, without invoking it, and would otherwise pass on an untouched stub).
+
+Progress is tracked locally in `scripts/progress.json` (gitignored, not committed) and only updated when this command runs.
 
 ## Structure
 

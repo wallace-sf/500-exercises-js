@@ -1,4 +1,4 @@
 node_modules/
 dist/
 *.log
-scripts/theory-progress.json
+scripts/progress.json
