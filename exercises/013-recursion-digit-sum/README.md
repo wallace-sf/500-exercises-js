@@ -21,4 +21,5 @@ sumDigits(0)->0
 
 ## Approach
 
-_(to be filled in while solving)_
+The first step is to get the last digit and then the remaining digits. With these two numbers, I can add the last digit to the sum of the remaining digits.
+Every time the recursive function is executed, its last digit is added to the sum returned by the recursive call. Finally, when the remaining number is zero, it means all digits were added together.
