@@ -12,9 +12,21 @@ describe('#012 - Recursion: Sum of 1..n', () => {
   });
 });
 
-// Additional edge cases (expected values verified against the reference solution)
+// Additional edge cases
 describe('edge cases', () => {
   it('edge case: n = 1', () => {
     expect(sumToN(1)).toEqual(1);
+  });
+  it('n = 2', () => {
+    expect(sumToN(2)).toEqual(3);
+  });
+  it('n = 10', () => {
+    expect(sumToN(10)).toEqual(55);
+  });
+  it('n = 100', () => {
+    expect(sumToN(100)).toEqual(5050);
+  });
+  it('upper bound n = 1000', () => {
+    expect(sumToN(1000)).toEqual(500500);
   });
 });
