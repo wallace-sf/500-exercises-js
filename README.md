@@ -1,5 +1,7 @@
 # 500 Logic, DSA and Algorithm Exercises (JS/TS)
 
+**English** | [Português (Brasil)](README.pt-BR.md)
+
 A local, minimalist environment to practice the 500 exercises from the "500 Logic, DSA and Algorithm Exercises" list, in JavaScript/TypeScript, with Vitest.
 
 No UI, no database, no ranking, no mandatory timer. Just a simple way to write a solution and know right away whether it passed or not.
@@ -92,3 +94,29 @@ Solving an exercise = implementing the body of the function/class in `solution.t
 8. Intervals, Bits and Misc (can be interleaved at any time — they are short)
 
 No rush, no timer at the beginning. One exercise at a time.
+
+## Daily practice routine (interview prep)
+
+Think in **time per day**, not number of exercises. The count naturally varies with difficulty; what matters is consistency.
+
+**1 to 1.5 hours a day, 5 to 6 days a week.** Within that time, the count adjusts itself:
+
+| Difficulty | Exercises per day | Target time per exercise |
+|---|---|---|
+| Easy | 3 to 5 | 15 to 20 min |
+| Medium | 1 to 2 | 30 to 45 min |
+| Hard | 1 every 1 or 2 days | 45 to 60+ min |
+
+The target times mirror a real interview (30 to 45 minutes per problem). Start without a timer while learning a topic, and use the targets once it feels comfortable.
+
+### More important than the count
+
+1. **Set a limit for being stuck.** After 25 to 30 minutes with no progress, read the hint. If it still doesn't click, read a solution, understand it, and **redo it on your own the next day**. Two hours stuck teaches little.
+2. **Review.** Spend ~15 minutes a day redoing an exercise from 3 to 7 days ago, without looking at your answer. Retaining what you solved is worth more than solving something new.
+3. **Think out loud.** In an interview, explaining your reasoning counts as much as getting it right. Filling in each exercise's `## Approach` section is good practice for this.
+4. **State the complexity** (time and space) of every solution. It is always asked.
+5. **Learn patterns, not exercises.** You don't need to solve all 500. You need to recognize the patterns (recursion, two pointers, sliding window, hash map, BFS/DFS, dynamic programming, etc.). Once a pattern feels easy, it's fine to skip some similar exercises.
+
+### Timeline
+
+At an average of 2 exercises a day, 5 days a week, all 500 would take about **a year**. With an interview date set, prioritize the most frequently asked topics instead of following the numeric order.
